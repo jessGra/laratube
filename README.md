@@ -6,4 +6,4 @@ Mini-Youtube realizado con laravel 8 y bootstrap
     Creado con ♥ por <strong>Jesus Granada</strong>
 </p>
 
-Proyecto publicado en <a href="https://blog-portafolio-laravel.herokuapp.com/" target="_blank">Heroku</a>
+Proyecto publicado en <a href="https://lara-tube.herokuapp.com/" target="_blank">Heroku</a>
