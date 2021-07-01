@@ -1,0 +1,109 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+.bg-gray {
+    background-color: #131516;
+    color: #fff;
+}
+
+.custom-file-label {
+    background-color: #131516;
+    color: #fff;
+    border-color: rgb(119, 110, 98) !important;
+}
+
+.custom-file-label::after {
+    background-color: transparent;
+    color: #fff;
+}
+.input-group-text {
+    border-color: rgb(119, 110, 98) !important;
+}
+
+.form-control {
+    border-color: rgb(119, 110, 98) !important;
+}
+.form-control:focus {
+    background-color: #131516 !important;
+    color: #fff !important;
+}
+
+.bg-dark {
+    background-color: #2c2f31 !important;
+}
+
+.btn-primary {
+    border-color: rgb(119, 110, 98) !important;
+}
+
+.img-container {
+    height: 200px;
+    position: relative;
+}
+
+.img-container a {
+    margin: auto;
+    color: #fff;
+    text-align: center;
+
+    line-height: 200px; /* igual height de la imagen */
+
+    background: #000;
+    transition: opacity 0.4s linear;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    text-decoration: none;
+}
+
+.img-container:hover a {
+    opacity: 0.75;
+}
+
+.h-screen {
+    height: 100vh;
+}
+
+/* image video*/
+.image-video-mini {
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+/* enlace a*/
+.a-video-mini {
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    visibility: hidden;
+    opacity: 0.75;
+    background: #000;
+    text-align: center;
+    padding: 22%;
+}
+
+.image-video-mini:hover > .a-video-mini {
+    visibility: visible;
+    transition: opacity 0.3s linear;
+    color: #fff;
+    text-decoration: none;
+}
+
+.shadow-lg-white {
+    -webkit-box-shadow: 0px 0px 15px 5px #0f1111;
+    box-shadow: 0px 0px 15px 5px #0f1111;
+}

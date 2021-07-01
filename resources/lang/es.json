@@ -1,0 +1,18 @@
+{
+    "Register" : "Registro",
+    "Login" : "Iniciar Sesion",
+    "Contact" : "Contacto",
+    "Home" : "Inicio",
+    "About" : "Quien soy",
+    "Send" : "Enviar",
+    "Save" : "Guardar",
+    "Update" : "Actualizar",
+    "Forgot Your Password?" : "Olvidaste Tu Contraseña?",
+    "Remember Me" : "Mantener Sesion",
+    "E-Mail Address" : "Correo",
+    "Password" : "Contraseña",
+    "Confirm Password" : "Confirmar Contraseña",
+    "Name" : "Nombre",
+    "Surname" : "Apellido",
+    "Upload Video" : "Subir Video"
+}
