@@ -25,7 +25,7 @@ class SaveVideoRequest extends FormRequest
     public function rules()
     {
         return [
-            'video' => 'required | mimes:mp4,MP4 | max:5000',
+            'video' => 'required | mimes:mp4,MP4,mov,ogg | max:20000',
             'image' => 'required | mimes:jpg,bmp,png,jpeg | max:3000',
             'title' => 'required | max: 30',
             'description' => 'required | max: 150',
@@ -37,7 +37,7 @@ class SaveVideoRequest extends FormRequest
         return [
             'video.required' => 'Debes agregar un video',
             'video.mimes' => 'Parece que has agregado un archivo que no es un video (MP4)',
-            'video.max' => 'El video pesa mucho, debe pesar maximo 5 Megas',
+            'video.max' => 'El video pesa mucho, debe pesar maximo 20 Megas',
             'image.required' => 'Debes agregar una miniatura para tu video',
             'image.mimes' => 'Parece que has agregado un archivo que no es una imagen',
             'image.max' => 'La imagen pesa mucho, debe pesar maximo 3 Megas',
